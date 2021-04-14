@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_flutter_catalog/components/basic_page.dart';
 import 'package:motion_tab_bar/MotionTabBarView.dart';
 import 'package:motion_tab_bar/MotionTabController.dart';
 import 'package:motion_tab_bar/motiontabbar.dart';
@@ -84,11 +85,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       body: MotionTabBarView(
       controller: _tabController,
       children: <Widget>[
-        Container(
-          child: Center(
-            child: Text("Basic"),
-          ),
-        ),
+        BasicPage(),
         Container(
           child: Center(
             child: Text("Advanced"),
