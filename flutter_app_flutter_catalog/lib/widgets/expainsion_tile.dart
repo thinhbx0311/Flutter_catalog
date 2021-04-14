@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/msi/Desktop/Flutter%20Catalog/flutter_app_flutter_catalog/lib/widgets/expainsion_items.dart';
+import 'expainsion_items.dart';
 import 'package:flutter_app_flutter_catalog/models/category.dart';
 import 'package:flutter_app_flutter_catalog/models/widget_data.dart';
 import 'package:flutter_app_flutter_catalog/models/widgets.dart';
