@@ -5,6 +5,7 @@ import 'package:flutter_app_flutter_catalog/models/widgets.dart';
 import 'package:flutter_app_flutter_catalog/routes/icon.dart';
 import 'package:flutter_app_flutter_catalog/routes/text.dart';
 import 'package:flutter_app_flutter_catalog/routes/textfield.dart';
+import 'package:flutter_app_flutter_catalog/routes/textformfield.dart';
 
 const Category_Data = [
   Category(id: 1, content: 'Widgets', icons: Icon(Icons.widgets)),
@@ -33,7 +34,7 @@ List<Widgets> Widgets_Data = [
       id: 1,
       name: "TextFromField",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
+      sourcePath: "lib/routes/textformfield.dart", widget: TextFormFieldExample()),
   Widgets(id: 1, name: "Image", icon: Icon(Icons.star_border), sourcePath: ""),
   Widgets(
       id: 1,
