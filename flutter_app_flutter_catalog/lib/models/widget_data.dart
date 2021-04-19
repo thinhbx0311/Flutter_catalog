@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app_flutter_catalog/components/widget_detail.dart';
 import 'package:flutter_app_flutter_catalog/models/category.dart';
 import 'package:flutter_app_flutter_catalog/models/widgets.dart';
+import 'package:flutter_app_flutter_catalog/routes/button.dart';
+import 'package:flutter_app_flutter_catalog/routes/card_inkwell.dart';
+import 'package:flutter_app_flutter_catalog/routes/dropdownbutton.dart';
+import 'package:flutter_app_flutter_catalog/routes/gradient.dart';
 import 'package:flutter_app_flutter_catalog/routes/icon.dart';
 import 'package:flutter_app_flutter_catalog/routes/text.dart';
 import 'package:flutter_app_flutter_catalog/routes/textfield.dart';
@@ -27,29 +31,40 @@ List<Widgets> Widgets_Data = [
       icon: Icon(Icons.star_border),
       sourcePath: "lib/routes/icon.dart",
       widget: IconExample()),
-  Widgets(id: 1, name: "Text", icon: Icon(Icons.star_border), sourcePath: "lib/routes/text.dart", widget: TextExample()),
   Widgets(
-      id: 1, name: "TextField", icon: Icon(Icons.star_border), sourcePath: "lib/routes/textfield.dart", widget: TextFieldExample()),
+      id: 1,
+      name: "Text",
+      icon: Icon(Icons.star_border),
+      sourcePath: "lib/routes/text.dart",
+      widget: TextExample()),
+  Widgets(
+      id: 1,
+      name: "TextField",
+      icon: Icon(Icons.star_border),
+      sourcePath: "lib/routes/textfield.dart",
+      widget: TextFieldExample()),
   Widgets(
       id: 1,
       name: "TextFromField",
       icon: Icon(Icons.star_border),
-      sourcePath: "lib/routes/textformfield.dart", widget: TextFormFieldExample()),
+      sourcePath: "lib/routes/textformfield.dart",
+      widget: TextFormFieldExample()),
   Widgets(id: 1, name: "Image", icon: Icon(Icons.star_border), sourcePath: ""),
   Widgets(
       id: 1,
       name: "Card, Inkwell",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
+      sourcePath: "lib/routes/card_inkwell.dart",
+      widget: CardInkWellExample()),
   Widgets(
-      id: 1, name: "Gradient", icon: Icon(Icons.star_border), sourcePath: ""),
+      id: 1, name: "Gradient", icon: Icon(Icons.star_border), sourcePath: "lib/routes/gradient.dart", widget: GradientExample()),
   Widgets(
-      id: 1, name: "Buttons", icon: Icon(Icons.star_border), sourcePath: ""),
+      id: 1, name: "Buttons", icon: Icon(Icons.star_border), sourcePath: "lib/routes/button.dart", widget: ButtonExample()),
   Widgets(
       id: 1,
       name: "DropdownButton/ MenuButton",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
+      sourcePath: "lib/routes/dropdownbutton.dart", widget: DropdownExample()),
   Widgets(
       id: 1,
       name: "ImageFiltered",
