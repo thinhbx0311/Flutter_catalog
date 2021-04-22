@@ -4,12 +4,20 @@ import 'package:flutter_app_flutter_catalog/models/category.dart';
 import 'package:flutter_app_flutter_catalog/models/widgets.dart';
 import 'package:flutter_app_flutter_catalog/routes/button.dart';
 import 'package:flutter_app_flutter_catalog/routes/card_inkwell.dart';
+import 'package:flutter_app_flutter_catalog/routes/container.dart';
 import 'package:flutter_app_flutter_catalog/routes/dropdownbutton.dart';
+import 'package:flutter_app_flutter_catalog/routes/expandedsizebox.dart';
 import 'package:flutter_app_flutter_catalog/routes/gradient.dart';
 import 'package:flutter_app_flutter_catalog/routes/icon.dart';
+import 'package:flutter_app_flutter_catalog/routes/image.dart';
+import 'package:flutter_app_flutter_catalog/routes/listtile.dart';
+import 'package:flutter_app_flutter_catalog/routes/otherstfwidget.dart';
+import 'package:flutter_app_flutter_catalog/routes/rowcolumn.dart';
+import 'package:flutter_app_flutter_catalog/routes/stack.dart';
 import 'package:flutter_app_flutter_catalog/routes/text.dart';
 import 'package:flutter_app_flutter_catalog/routes/textfield.dart';
 import 'package:flutter_app_flutter_catalog/routes/textformfield.dart';
+import 'package:flutter_app_flutter_catalog/routes/wrap.dart';
 
 const Category_Data = [
   Category(id: 1, content: 'Widgets', icons: Icon(Icons.widgets)),
@@ -49,7 +57,7 @@ List<Widgets> Widgets_Data = [
       icon: Icon(Icons.star_border),
       sourcePath: "lib/routes/textformfield.dart",
       widget: TextFormFieldExample()),
-  Widgets(id: 1, name: "Image", icon: Icon(Icons.star_border), sourcePath: ""),
+  Widgets(id: 1, name: "Image", icon: Icon(Icons.star_border), sourcePath: "lib/routes/image.dart", widget: ImageExample()),
   Widgets(
       id: 1,
       name: "Card, Inkwell",
@@ -67,39 +75,29 @@ List<Widgets> Widgets_Data = [
       sourcePath: "lib/routes/dropdownbutton.dart", widget: DropdownExample()),
   Widgets(
       id: 1,
-      name: "ImageFiltered",
-      icon: Icon(Icons.star_border),
-      sourcePath: ""),
-  Widgets(
-      id: 1,
       name: "Other stateful widgets",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
+      sourcePath: "lib/routes/otherstfwidget.dart", widget: OtherStatefulWidgets()),
 
   //Layout
   Widgets(
-      id: 2, name: "Container", icon: Icon(Icons.star_border), sourcePath: ""),
+      id: 2, name: "Container", icon: Icon(Icons.star_border), sourcePath: "lib/routes/container.dart", widget: ContainerExample()),
   Widgets(
       id: 2,
       name: "Row, Column",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
-  Widgets(id: 2, name: "Wrap", icon: Icon(Icons.star_border), sourcePath: ""),
-  Widgets(
-      id: 2,
-      name: "FractionallySizedBox",
-      icon: Icon(Icons.star_border),
-      sourcePath: ""),
+      sourcePath: "lib/routes/rowcolumn.dart", widget: RowColumnExample()),
+  Widgets(id: 2, name: "Wrap", icon: Icon(Icons.star_border), sourcePath: "lib/routes/wrap.dart", widget: WrapExample()),
   Widgets(
       id: 2,
       name: "Expanded, SizedBox",
       icon: Icon(Icons.star_border),
-      sourcePath: ""),
-  Widgets(id: 2, name: "Stack", icon: Icon(Icons.star_border), sourcePath: ""),
+      sourcePath: "lib/routes/expandedsizedbox.dart", widget: ExpandedSizedBoxExample()),
+  Widgets(id: 2, name: "Stack", icon: Icon(Icons.star_border), sourcePath: "lib/routes/stack.dart", widget: StackExample()),
 
   //List
   Widgets(
-      id: 3, name: "ListTile", icon: Icon(Icons.star_border), sourcePath: ""),
+      id: 3, name: "ListTile", icon: Icon(Icons.star_border), sourcePath: "lib/routes/listtile.dart", widget: ListTileExample()),
   Widgets(
       id: 3,
       name: "ListView.builder",

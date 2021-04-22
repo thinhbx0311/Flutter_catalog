@@ -71,7 +71,7 @@ class CardInkWellExample extends StatelessWidget {
                     children: [
                       Positioned.fill(
                           child: Image.asset(
-                        "assets/images/image01.png",
+                        "assets/images/image01.jpg",
                         fit: BoxFit.fill,
                       )),
                       Positioned(
