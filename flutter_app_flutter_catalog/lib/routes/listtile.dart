@@ -22,16 +22,14 @@ class ListTileExample extends StatelessWidget {
         ),
         Divider(),
         ListTile(
-          title: Text("Three line"),
-          subtitle:
-              Text("Subtitle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-                  "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
+          title: Text("Title"),
+          subtitle: Text("Subtitle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),
           isThreeLine: true,
         ),
         Divider(),
         ListTile(
           title: Text("ListTile on tap"),
-          onTap: () {
+          onTap: (){
             Fluttertoast.showToast(msg: "ListTile on tap");
           },
         )
