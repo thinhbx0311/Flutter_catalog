@@ -26,6 +26,9 @@ dependencies:
   motion_tab_bar: ^0.1.5
   widget_with_codeview: ^1.0.5
   fluttertoast: ^7.0.3
+  gradient_app_bar: ^0.1.3
+  transparent_image: ^1.0.0
+  cached_network_image: ^2.5.1
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
@@ -51,6 +54,20 @@ flutter:
         - lib/routes/text.dart
         - lib/routes/textfield.dart
         - lib/routes/textformfield.dart
+        - lib/routes/card_inkwell.dart
+        - lib/routes/image.dart
+        - lib/routes/gradient.dart
+        - lib/routes/button.dart
+        - lib/routes/dropdownbutton.dart
+        - lib/routes/otherstfwidget.dart
+        - lib/routes/container.dart
+        - lib/routes/rowcolumn.dart
+        - lib/routes/wrap.dart
+        - lib/routes/expandedsizedbox.dart
+        - lib/routes/stack.dart
+        - lib/routes/listtile.dart
+        - assets/images/image01.jpg
+        - assets/images/flutter_logo_leg.gif
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

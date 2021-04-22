@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       ),
       bottomNavigationBar: MotionTabBar(
         labels: [
-          "Basic", "Advanced", "Bookmarks"
+          "Basic", "Advanced", "Example"
         ],
         initialSelectedTab: "Basic",
         tabIconColor: Colors.blue,
@@ -86,16 +86,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       controller: _tabController,
       children: <Widget>[
         BasicPage(),
-        Container(
-          child: Center(
-            child: Text("Advanced"),
-          ),
-        ),
-        Container(
-          child: Center(
-            child: Text("Bookmarks"),
-          ),
-        ),
+        BasicPage(),
+        BasicPage(),
       ],
     ));
   }
