@@ -1,4 +1,21 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+
+class ImageExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: ListView(
+        children: [
+          ListTile(
+            title: Text("1. Image from asset:"),
+          ),
+          Card(
+            child: Image.asset("assets/image/fluterr.png"),
+          )
+        ],
+      ),
+=======
 import 'package:transparent_image/transparent_image.dart'
     show kTransparentImage;
 import 'package:cached_network_image/cached_network_image.dart';
@@ -60,6 +77,7 @@ class _ImageExampleState extends State<ImageExample> {
           child: Image.asset("assets/images/flutter_logo_leg.gif"),
         ),
       ],
+>>>>>>> 52828542ea9b80b424010932a1dbc9a79494f6bb
     );
   }
 }
